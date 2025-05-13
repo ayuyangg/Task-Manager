@@ -1,6 +1,6 @@
-# Task Manager (React Native App)
+# Task Manager
 
-A feature-rich task management application built with React Native and Expo. It allows users to efficiently add, track, manage, and organize daily tasks with an intuitive interface, dark mode support, prioritization, due dates, and more. This version supports web browser access and mobile access via Expo Go (using LAN or Tunnel).
+A task management application built with React Native and Expo. It allows users to efficiently add, track, manage, and organize daily tasks with an intuitive user interface, dark mode support, prioritization, due dates, and more. This version supports web browser access and mobile access via Expo Go (using LAN or Tunnel).
 
 ## Key Features
 
@@ -12,7 +12,7 @@ A feature-rich task management application built with React Native and Expo. It 
   - Dark Mode, "Tasks Due Soon" alerts, statistics, smooth layout animations.
 - **Input Validation:** For task titles and date formats.
 
-## 🚀 Setup & Running
+## Setup & Running
 
 ### Prerequisites
 
@@ -41,7 +41,6 @@ You have multiple ways to run the app:
   ```bash
   npm run web
   ```
-  _(Alternatively, check `package.json` for `expo start --web` or a similar script, and run that, e.g., `npx expo start --web`)_
 
 **2. For Mobile via Expo Go (LAN Connection - Recommended if your network allows):**
 
@@ -50,7 +49,6 @@ You have multiple ways to run the app:
   npm start
   ```
 - After Metro Bundler starts, scan the QR code with the **Expo Go app** on your phone.
-- _Troubleshooting LAN: Ensure your computer's firewall allows Node.js/Metro ports (e.g., 19000-19002, 8081) and your Wi-Fi network doesn't have "Client Isolation."_
 
 **3. For Mobile via Expo Go (Tunnel Connection - Use on Restricted Networks like University Wi-Fi):**
 
@@ -62,18 +60,14 @@ You have multiple ways to run the app:
   ```
 - After Metro Bundler starts, scan the **tunnel-specific QR code** with the **Expo Go app**.
 
-## 📝 Usage Notes
+## Usage Notes
 
 - **Add Tasks:** Available on the "Dashboard" view/tab.
 - **Dark Mode:** Toggle via the icon in the sidebar (web) or drawer (mobile).
 - **Mobile Drawer:** Tap the Menu (☰) icon on mobile to open/close the navigation drawer. Tap the overlay or a navigation item to close it.
 - **Date Format:** Use MM/DD/YYYY for due dates.
 
-## 📦 Third-Party Libraries
+## Third-Party Libraries
 
 - **React Native & React Native Web:** Core framework for UI and logic.
-- **`lucide-react-native`** (_check `package.json` for version, e.g., `0.510.0`_): Provides icons.
-
----
-
-Enjoy managing your tasks!
+- **`lucide-react-native`**: Provides icons.
